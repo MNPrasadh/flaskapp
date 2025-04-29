@@ -5,9 +5,7 @@ services:
     buildCommand: "pip install -r requirements.txt"  # Command to install dependencies
     startCommand: "gunicorn app:app"  # Gunicorn to run Flask in production
     plan: free  # Free plan for low-traffic apps
-    branches:
-      - main  # Only deploy the main branch
-    autoDeploy: true  # Auto deploy whenever there's a push to the main branch
+    autoDeploy: true  # Auto deploy whenever there's a push to the default branch
     envVars:
       - key: FLASK_ENV
         value: production  # Set the environment to production for optimized performance
