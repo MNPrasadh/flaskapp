@@ -246,6 +246,7 @@ PyRect==0.2.0
 pyscreenshot==3.1
 PyScreeze==0.1.29
 pyshp==2.3.1
+maturin
 PySocks==1.7.1
 python-box==7.3.2
 python-dateutil==2.8.2
