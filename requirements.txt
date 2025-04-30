@@ -246,7 +246,6 @@ PyRect==0.2.0
 pyscreenshot==3.1
 PyScreeze==0.1.29
 pyshp==2.3.1
-maturin
 PySocks==1.7.1
 python-box==7.3.2
 python-dateutil==2.8.2
@@ -260,6 +259,9 @@ pytz==2024.1
 PyWavefront==1.3.3
 pywin32-ctypes==0.2.3
 pywinpty==2.0.11
+pywin32==306
+pyproj==3.7.1
+PyYAML==6.0.1
 pyzmq==25.1.1
 qrcode==7.4.2
 queuelib==1.7.0
